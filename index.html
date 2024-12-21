@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Logo Left and Menu Right</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- home start here -->
+  <div class="main">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./pics/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav gap-3">
+            <li class="nav-item">
+              <a class="nav-link border border-2 rounded-3" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-2 rounded-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-2 rounded-3" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-2 rounded-3" href="#">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-2 rounded-3" href="#skill">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-2 rounded-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="header">
+      <div class="header-content container">
+        <h1 class="header-title">
+          <span class="up">HI!</span>
+          <span class="down">I am Kamran Arshad</span>
+        </h1>
+        <p class="header-subtitle">FRONTEND WEB DESIGNER</p>
+
+        <button class="btn btn-primary">Visit My Works</button>
+      </div>
+    </div>
+  </div>
+  <!-- home end here  -->
+
+  <!-- About Start -->
+
+  <section class="section pt-0" id="about">
+    <div class="container text-center">
+
+      <div class="about">
+        <div class="about-img-holder col-sm-12 col-md-4">
+          <img src="./pics/1731911082892.jpg" class="about-img col-12 col-md-4" alt="my pics">
+        </div>
+        <div class="about-caption col-12 col-md-8">
+          <p class="section-subtitle">Who Am I ?</p>
+          <h2 class="section-title mb-3">About Me</h2>
+          <p>
+            Hi, I’m Kamran Arshad, a passionate Frontend Web Developer dedicated to turning creative ideas into seamless
+            digital experiences.
+            With a strong foundation in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React
+            and Angular, I specialize in building responsive, user-friendly websites that not only look great but
+            function flawlessly.<br><br> My goal is to bridge the gap between design and functionality, ensuring every
+            project
+            delivers an engaging and intuitive user experience.
+          </p>
+          <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About end -->
+
+  <!-- portfolio start here -->
+  <main id="portfolio">
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="container text-center">
+          <p class="section-subtitle">What I Did ?</p>
+          <h6 class="section-title mb-6">Portfolio</h6>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./pics/first.JPG" alt="my First Assigment" class="bd-placeholder-img card-img-top" width="100%"
+                height="350">
+              <div class="card-body">
+                <p class="text-justify"><b>First Assignmen!</b><br><br>
+                  This is my fist Assignment (create a CV), that assignment i create to using HTML and CSS only. It is
+                  not
+                  responsiveness and mobile first approach because i dont know to how to responsiveness our website.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-md btn-outline-secondary">View my Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./pics/second.JPG" alt="my Second Assigment" class="bd-placeholder-img card-img-top"
+                width="100%" height="350">
+              <div class="card-body">
+                <p class="text-justify"><b>My Second Assignmen!</b><br><br>
+                  This is my Second Assignment (create a Registration Form), that assignment i create to using HTML, Cl
+                  only. It is not
+                  responsiveness and mobile first approach because i dont know to how to responsiveness our website.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-md btn-outline-secondary">View my Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./pics/third.JPG" alt="my Third Assigment" class="bd-placeholder-img card-img-top" width="100%"
+                height="350">
+              <div class="card-body">
+                <p class="text-justify"><b>My Third Assignmen!</b><br><br>
+                  This is my Third Assignment (create a user submit form), that assignment i create to using HTML, Cl
+                  only. It is not
+                  responsiveness and mobile first approach because i dont know to how to responsiveness our website.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-md btn-outline-secondary">View my Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./pics/forth.JPG" alt="my First Assigment" class="bd-placeholder-img card-img-top" width="100%"
+                height="350">
+              <div class="card-body">
+                <p class="text-justify"><b>Fourth Assignmen!</b><br><br>
+                  This is my Foruth Assignment (create a Nav bar), that assignment i create to using HTML and CSS only.
+                  It is not
+                  responsiveness and mobile first approach because i dont know to how to responsiveness our website.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-md btn-outline-secondary">View my Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="./pics/assignement 5.jpg" alt="my fifth Assigment" class="bd-placeholder-img card-img-top"
+                width="100%" height="350">
+              <div class="card-body">
+                <p class="text-justify"><b>My Fifth Assignmen!</b><br><br>
+                  This is my Fifth Assignment, that assignment i create to using HTML, Cl and bootstarp. It is
+                  responsiveness and mobile first approach because i learn how to responsiveness our website.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-md btn-outline-secondary">View my Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item object-fit-scale" src="./pics/assignment06.mp4" allowfullscreen autoplay bd-placeholder-img card-img-top" width="100%"
+                height="350"></iframe>
+              </div>
+              <!-- <img src="./pics/third.JPG" alt="my Third Assigment" class="bd-placeholder-img card-img-top" width="100%"
+                height="350"> -->
+              <div class="card-body">
+                <p class="text-justify"><b>My Last Assignmen!</b><br><br>
+                  This is my Last Assignment, that assignment I create to using HTML, Cl and Bootstrap. It is
+                  responsiveness and mobile first approach because I learn how to create responsiveness website.</p>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-md btn-outline-secondary">View my Portfolio</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </main>
+  <!-- portfolio end here  -->
+
+
+    <div id="bars" style="font-family: Lora, serif;">
+      <div class="container text-center" id="skill">
+        <p class="section-subtitle">What your Skills?</p>
+        <h6 class="section-title mb-6">My Skills</h6>
+      </div> 
+      
+      <div class="bar" data-percent="100">
+        <h3>HTML5</h3>
+        <canvas class="bar-circle" width="70" height="70"></canvas>
+      </div>
+      <div class="bar" data-percent="90">
+        <h3>CSS</h3>
+        <canvas class="bar-circle" width="70" height="70"></canvas>
+      </div>
+      <div class="bar" data-percent="60">
+        <h3>JavaScript</h3>
+        <canvas class="bar-circle" width="70" height="70"></canvas>
+      </div>
+      <div class="bar" data-percent="80">
+        <h3>BootStarp 5</h3>
+        <canvas class="bar-circle" width="70" height="70"></canvas>
+      </div>
+      <div class="bar" data-percent="50">
+        <h3>UI/UX</h3>
+        <canvas class="bar-circle" width="70" height="70"></canvas>
+      </div>
+    </div>	
+  
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <p class="section-subtitle text-center">How can you Communication?</p>
+            <h2 class="text-center mb-4 saqi">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Your Query</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Kamran Arshad. All Rights Reserved.</p>
+    </footer>
+
+
+    <script type="text/javascript">
+      /* Credits: 
+       * https://www.developphp.com/video/JavaScript/Circular-Progress-Loader-Canvas-JavaScript-Programming-Tutorial
+       */
+  
+      (function() {
+        
+        var Progress = function( element ) {
+          
+          this.context = element.getContext( "2d" );
+          this.refElement = element.parentNode;
+          this.loaded = 0;
+          this.start = 1;
+          this.width = this.context.canvas.width;
+          this.height = this.context.canvas.height;
+          this.total = parseInt( this.refElement.dataset.percent, 10 );
+          this.timer = null;
+          
+          this.diff = 0;
+          
+          this.init();	
+        };
+        
+        Progress.prototype = {
+          init: function() {
+            var self = this;
+            self.timer = setInterval(function() {
+              self.run();	
+            }, 25);
+          },
+          run: function() {
+            var self = this;
+            
+            self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 2 );	
+            self.context.clearRect( 0, 0, self.width, self.height );
+            self.context.lineWidth = 10;
+            self.context.fillStyle = "#000";
+            self.context.strokeStyle = "#d30000";
+            self.context.textAlign = "center";
+            
+            self.context.fillText( self.loaded + "%", self.width * .5, self.height * .5 + 2, self.width );
+            self.context.beginPath();
+            self.context.arc( 35, 35, 30, self.start, self.diff / 10 + self.start, false );
+            self.context.stroke();
+            
+            if( self.loaded >= self.total ) {
+              clearInterval( self.timer );
+            }
+            
+            self.loaded++;
+          }
+        };
+        
+        var CircularSkillBar = function( elements ) {
+          this.bars = document.querySelectorAll( elements );
+          if( this.bars.length > 0 ) {
+            this.init();
+          }	
+        };
+        
+        CircularSkillBar.prototype = {
+          init: function() {
+            this.tick = 25;
+            this.progress();
+            
+          },
+          progress: function() {
+            var self = this;
+            var index = 0;
+            var firstCanvas = self.bars[0].querySelector( "canvas" );
+            var firstProg = new Progress( firstCanvas );
+            
+            
+            
+            var timer = setInterval(function() {
+              index++;
+                
+              var canvas = self.bars[index].querySelector( "canvas" );
+              var prog = new Progress( canvas );
+              
+              if( index == self.bars.length ) {
+                  clearInterval( timer );
+              } 
+              
+            }, self.tick * 100);
+              
+          }
+        };
+        
+        document.addEventListener( "DOMContentLoaded", function() {
+          var circularBars = new CircularSkillBar( "#bars .bar" );
+        });
+        
+      })();
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
